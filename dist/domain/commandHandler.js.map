@@ -1,1 +1,0 @@
-{"version":3,"file":"commandHandler.js","sourceRoot":"","sources":["../../src/domain/commandHandler.ts"],"names":[],"mappings":";;AAsBA;;;;;GAKG;AACH;IACS,MAAM,CAAC,GAAa;QACzB,+CAA+C;QAC/C,MAAM,WAAW,GAAG,GAAG,CAAC,IAAI,CAAC;QAC7B,IAAI,CAAC,SAAS,WAAW,EAAE,CAAC,CAAC,GAAG,CAAC,CAAC;IACpC,CAAC;CACF;AAND,wCAMC"}

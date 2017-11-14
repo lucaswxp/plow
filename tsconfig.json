@@ -4,13 +4,14 @@
   "compilerOptions": {
     "target": "ES6",
     "rootDir": "src",
-    "outDir": "dist",
+    "outDir": "./",
     "module": "commonjs",
     "noImplicitAny": true,
     "removeComments": false,
     "preserveConstEnums": true,
     "declaration": true,
     "sourceMap": true,
+    "allowJs": false,
     "suppressImplicitAnyIndexErrors": true,
     "experimentalDecorators": true,
     "emitDecoratorMetadata": true,
@@ -26,5 +27,8 @@
   },
   "include": [
     "src/**/*.ts"
+  ],
+  "exclude": [
+    "lib"
   ]
 }
