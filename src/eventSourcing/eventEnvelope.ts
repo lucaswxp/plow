@@ -3,7 +3,7 @@ import { Guid } from '@cashfarm/lang';
 import { Identity } from '../domain';
 
 export interface IEventEnvelope {
-  readonly id: Guid;
+  readonly id: string;
   readonly created: Date;
   readonly aggregateType: string;
   readonly aggregateId: Identity<any>;

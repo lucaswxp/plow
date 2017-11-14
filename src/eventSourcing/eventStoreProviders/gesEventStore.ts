@@ -53,7 +53,7 @@ export class GesEventStore implements IEventStore {
     const metadata = JSON.parse(e.metadata.toString());
 
     return new EventEnvelope({
-      id: new Guid(e.eventId),
+      id: e.eventId,
       created: new Date(e.createdEpoch),
       eventData: JSON.parse(e.data.toString()),
       eventType: e.eventType,

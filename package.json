@@ -19,7 +19,7 @@
   },
   "pre-commit": "lint",
   "scripts": {
-    "build": "yarn run clean && yarn lint && yarn test && yarn tsc && yarn lint-pkg",
+    "build": "yarn run clean && yarn tsc",
     "build:tests": "tsc && tsc -p tests/",
     "clean": "rm -rf lib/ & rm -rf tests/compiled",
     "check": "nsp check",
