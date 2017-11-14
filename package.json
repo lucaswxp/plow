@@ -11,8 +11,8 @@
   "keywords": [
     "shiny"
   ],
-  "main": "lib/index.js",
-  "typings": "lib/index.d.ts",
+  "main": "dist/index.js",
+  "typings": "dist/index.d.ts",
   "repository": {
     "type": "git",
     "url": "git+ssh://git@github.com/cashfarm/plow.git"
@@ -21,7 +21,7 @@
   "scripts": {
     "build": "yarn run clean && yarn tsc",
     "build:tests": "tsc && tsc -p tests/",
-    "clean": "rm -rf lib/ & rm -rf tests/compiled",
+    "clean": "rm -rf dist/ & rm -rf tests/compiled",
     "check": "nsp check",
     "cover": "nyc npm test",
     "dev": "yarn run clean; tsc -w & tsc -w -p tests & ava --watch",
